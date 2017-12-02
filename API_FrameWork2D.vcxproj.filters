@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameFrameWork2D">
+      <UniqueIdentifier>{09210d92-f6b2-4c76-b041-bba140e35414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\Manager">
+      <UniqueIdentifier>{fb477b27-9e24-4e21-8d19-5c46b5d8d033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\Image">
+      <UniqueIdentifier>{601ec263-a4a2-42d1-b8f3-10e0a9e99afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\Util">
+      <UniqueIdentifier>{14226613-79e3-4e00-ba23-2a35d0ab43ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\Scene">
+      <UniqueIdentifier>{d6dfacc9-a90c-40fe-a31a-7ec69eed3803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGame">
+      <UniqueIdentifier>{bc923483-814e-424e-9f8f-6efc281a0193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGame\GameName">
+      <UniqueIdentifier>{9d9d586b-35cf-4ff7-b448-42ec72840954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGame\슈팅게임">
+      <UniqueIdentifier>{957e9ba9-45df-4fb3-9126-04f0e5bd00bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\Bullet">
+      <UniqueIdentifier>{70256045-e90e-4401-b0cf-8bfe36a24e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGame\슈팅게임\에너미">
+      <UniqueIdentifier>{cd86d475-e715-49a7-bcb8-4bc02c588be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\ProgressBar">
+      <UniqueIdentifier>{3c241e17-58eb-4ae4-9c39-b78e8acb539d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\Timer">
+      <UniqueIdentifier>{9f22c154-3620-4b39-8bf7-8b03593557fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>GameFrameWork2D</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Source Files\MainGame\GameName</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>GameFrameWork2D\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>GameFrameWork2D\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>Source Files\MainGame\슈팅게임</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameFrameWork2D\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>GameFrameWork2D\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
+    </ClInclude>
+    <ClInclude Include="Minion.h">
+      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>GameFrameWork2D\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Inidata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene_01.h">
+      <Filter>GameFrameWork2D\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene_02.h">
+      <Filter>GameFrameWork2D\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>GameFrameWork2D</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\MainGame\GameName</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>GameFrameWork2D\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>GameFrameWork2D\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Source Files\MainGame\슈팅게임</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameFrameWork2D\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>GameFrameWork2D\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
+    </ClCompile>
+    <ClCompile Include="Minion.cpp">
+      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>GameFrameWork2D\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Inidata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene_01.cpp">
+      <Filter>GameFrameWork2D\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene_02.cpp">
+      <Filter>GameFrameWork2D\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
