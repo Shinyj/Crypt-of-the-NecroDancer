@@ -49,6 +49,36 @@
     <Filter Include="GameFrameWork2D\Timer">
       <UniqueIdentifier>{9f22c154-3620-4b39-8bf7-8b03593557fb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\MainGame\LodingScene">
+      <UniqueIdentifier>{a0554df0-2c0f-4626-8728-d05419dd4349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\Loading">
+      <UniqueIdentifier>{cea01c60-e8a4-49c4-ba98-da449de792bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGame\Pixel">
+      <UniqueIdentifier>{857c66f7-9e7b-4e7c-b4ac-7df8a1e50cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGame\Minimap">
+      <UniqueIdentifier>{9c31086f-6dbf-4fec-9d2c-141f34a6b595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGame\탱크추가">
+      <UniqueIdentifier>{64bd58da-d859-4f1c-b8b1-4b0dd284332f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\IsoMatrix">
+      <UniqueIdentifier>{6dd30e49-e86c-4c78-9e48-5a19d48a6ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\A%2a연습">
+      <UniqueIdentifier>{182a96e9-1ef1-472d-8812-a896e380823e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\A%2a">
+      <UniqueIdentifier>{4383eb1a-0aec-4bbe-b772-6d70918d5cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\ActionCallback">
+      <UniqueIdentifier>{e8bc1fde-400d-4a75-9f9a-035d1b893c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork2D\Object">
+      <UniqueIdentifier>{3c5600f1-3c6b-446b-96ad-06f05dcf8cea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -66,62 +96,263 @@
     <ClInclude Include="GameNode.h">
       <Filter>GameFrameWork2D</Filter>
     </ClInclude>
-    <ClInclude Include="MainGame.h">
-      <Filter>Source Files\MainGame\GameName</Filter>
-    </ClInclude>
-    <ClInclude Include="SingletonBase.h">
-      <Filter>GameFrameWork2D\Manager</Filter>
-    </ClInclude>
     <ClInclude Include="RandomFunction.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Image.h">
-      <Filter>GameFrameWork2D\Image</Filter>
-    </ClInclude>
-    <ClInclude Include="KeyManager.h">
-      <Filter>GameFrameWork2D\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Util.h">
-      <Filter>GameFrameWork2D\Util</Filter>
-    </ClInclude>
-    <ClInclude Include="ImageManager.h">
-      <Filter>GameFrameWork2D\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneManager.h">
-      <Filter>GameFrameWork2D\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Rocket.h">
-      <Filter>Source Files\MainGame\슈팅게임</Filter>
-    </ClInclude>
-    <ClInclude Include="Bullet.h">
-      <Filter>GameFrameWork2D\Bullet</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
-    </ClInclude>
-    <ClInclude Include="ProgressBar.h">
-      <Filter>GameFrameWork2D\ProgressBar</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyManager.h">
-      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
-    </ClInclude>
-    <ClInclude Include="Minion.h">
-      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
-    </ClInclude>
-    <ClInclude Include="Timer.h">
-      <Filter>GameFrameWork2D\Timer</Filter>
-    </ClInclude>
-    <ClInclude Include="TimeManager.h">
-      <Filter>GameFrameWork2D\Manager</Filter>
     </ClInclude>
     <ClInclude Include="Inidata.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TestScene_01.h">
-      <Filter>GameFrameWork2D\Scene</Filter>
+    <ClInclude Include="Manager\ImageManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="TestScene_02.h">
-      <Filter>GameFrameWork2D\Scene</Filter>
+    <ClInclude Include="Manager\KeyManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SoundManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar\AStar.h">
+      <Filter>GameFrameWork2D\A%2a연습</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Image.h">
+      <Filter>GameFrameWork2D\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\Timer.h">
+      <Filter>GameFrameWork2D\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Util.h">
+      <Filter>GameFrameWork2D\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\Loading.h">
+      <Filter>GameFrameWork2D\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\TimeManager.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IsoMatrix\IsoMatrix.h">
+      <Filter>GameFrameWork2D\IsoMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\LodingScene\LoadingScene.h">
+      <Filter>Source Files\MainGame\LodingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Minimap\Minimap.h">
+      <Filter>Source Files\MainGame\Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Pixel\PixelCollisionScene.h">
+      <Filter>Source Files\MainGame\Pixel</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SingletonBase.h">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\COTND\MainGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar\ProgressBar.h">
+      <Filter>GameFrameWork2D\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\ObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OPlayer1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OFloorZone1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OFloorStairs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWallGold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWallDoor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone1_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemShovelBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemShovelTitanium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemTorch1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemTorch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemTorch3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemWeaponGun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemWeaponBow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemWeaponBroad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemWeaponDagger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemWeaponFlail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemWeaponLongSword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemWeaponRapier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemWeaponSpear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemPosionFood2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemArmorGi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemArmorGlass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemArmorSpiked.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemArmorLeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterBanshee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWallEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWallZone1Stone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWallZone1Dirt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWallZone2Dirt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWallZone2Stone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WallBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterBanshee2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterBat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterBatBlack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterBatGreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterBatMiniBoss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterMiniBossYellow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterBatRed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterDragonRed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterMinotaur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterMinotaur2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterShopKeeper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterSkeleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterSkeletonBlack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterMageBlack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterMageWhite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterMageYellow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterSkeletonYellow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterSlimeBlue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterSlimeGreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OItemGold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStatge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OFloorBoss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterKingconga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OMonsterZombie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWallBossWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kingcongaIntro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -134,56 +365,257 @@
     <ClCompile Include="GameNode.cpp">
       <Filter>GameFrameWork2D</Filter>
     </ClCompile>
-    <ClCompile Include="MainGame.cpp">
-      <Filter>Source Files\MainGame\GameName</Filter>
-    </ClCompile>
-    <ClCompile Include="Image.cpp">
-      <Filter>GameFrameWork2D\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="KeyManager.cpp">
-      <Filter>GameFrameWork2D\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Util.cpp">
-      <Filter>GameFrameWork2D\Util</Filter>
-    </ClCompile>
-    <ClCompile Include="ImageManager.cpp">
-      <Filter>GameFrameWork2D\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>GameFrameWork2D\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Rocket.cpp">
-      <Filter>Source Files\MainGame\슈팅게임</Filter>
-    </ClCompile>
-    <ClCompile Include="Bullet.cpp">
-      <Filter>GameFrameWork2D\Bullet</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
-    </ClCompile>
-    <ClCompile Include="ProgressBar.cpp">
-      <Filter>GameFrameWork2D\ProgressBar</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyManager.cpp">
-      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
-    </ClCompile>
-    <ClCompile Include="Minion.cpp">
-      <Filter>Source Files\MainGame\슈팅게임\에너미</Filter>
-    </ClCompile>
-    <ClCompile Include="Timer.cpp">
-      <Filter>GameFrameWork2D\Timer</Filter>
-    </ClCompile>
-    <ClCompile Include="TimeManager.cpp">
-      <Filter>GameFrameWork2D\Manager</Filter>
-    </ClCompile>
     <ClCompile Include="Inidata.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestScene_01.cpp">
-      <Filter>GameFrameWork2D\Scene</Filter>
+    <ClCompile Include="Manager\ImageManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
     </ClCompile>
-    <ClCompile Include="TestScene_02.cpp">
-      <Filter>GameFrameWork2D\Scene</Filter>
+    <ClCompile Include="Manager\KeyManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SoundManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar\AStar.cpp">
+      <Filter>GameFrameWork2D\A%2a연습</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Image.cpp">
+      <Filter>GameFrameWork2D\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer\Timer.cpp">
+      <Filter>GameFrameWork2D\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Util.cpp">
+      <Filter>GameFrameWork2D\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading\Loading.cpp">
+      <Filter>GameFrameWork2D\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\TimeManager.cpp">
+      <Filter>GameFrameWork2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IsoMatrix\IsoMatrix.cpp">
+      <Filter>GameFrameWork2D\IsoMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\LodingScene\LoadingScene.cpp">
+      <Filter>Source Files\MainGame\LodingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Minimap\Minimap.cpp">
+      <Filter>Source Files\MainGame\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Pixel\PixelCollisionScene.cpp">
+      <Filter>Source Files\MainGame\Pixel</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\COTND\MainGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar\ProgressBar.cpp">
+      <Filter>GameFrameWork2D\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\ObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OPlayer1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OFloorZone1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OFloorStairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OWallGold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OWallDoor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone1_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemShovelBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemShovelTitanium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemTorch1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemTorch2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemTorch3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemWeaponGun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemWeaponBow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemWeaponBroad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemWeaponDagger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemWeaponFlail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemWeaponLongSword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemWeaponRapier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemWeaponSpear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemPosionFood2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemArmorGi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemArmorGlass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemArmorSpiked.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemArmorLeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterBanshee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OWallEnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OWallZone1Stone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OWallZone1Dirt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OWallZone2Dirt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OWallZone2Stone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WallBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterBanshee2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterBat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterBatBlack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterBatGreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterBatMiniBoss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterMiniBossYellow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterBatRed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterDragonRed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterMinotaur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterMinotaur2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterShopKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterSkeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterSkeletonBlack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterMageBlack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterMageWhite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterMageYellow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterSkeletonYellow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterSlimeBlue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterSlimeGreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OItemGold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStatge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OFloorBoss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterKingconga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OMonsterZombie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OWallBossWall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kingcongaIntro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

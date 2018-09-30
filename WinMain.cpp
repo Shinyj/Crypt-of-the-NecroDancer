@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "MainGame.h"
+#include "./MainGame/COTND/MainGame.h"
 
 MainGame* mg;
 
@@ -16,7 +16,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 {
 	//메인게임 클래스 동적할당
 	mg = new MainGame;
-
+	
+	//HBRUSH hb = ::CreateSolidBrush(RGB(222, 231, 249));
 	hInstance = hInstance;
 	//WNDCLASS : 윈도우 창의 정보를 저장하기 위한 구조체
 	//윈도우창 구조체 선언 후 초기화
@@ -31,9 +32,15 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	wndClass.lpszClassName = WINNAME;	//등록하고자 하는 윈도우 클래스 이름
 	wndClass.lpszMenuName = NULL;			//클래스로부터 만들어진 윈도우가 사용할 메뉴를 지정
 	wndClass.style = CS_HREDRAW | CS_VREDRAW;	//윈도우 클래스의 스타일을 지정
+	
 	setWindowSize(WINSTARTX, WINSTARTY, WINSIZEX, WINSIZEY);
 
-												//윈도우 클래스 등록
+	int FrameX, FrameY, CaptionY;
+	FrameX = GetSystemMetrics(SM_CXFRAME);
+	FrameY = GetSystemMetrics(SM_CYFRAME);
+	CaptionY = GetSystemMetrics(SM_CYCAPTION);
+
+	//윈도우 클래스 등록
 	RegisterClass(&wndClass);
 
 	//윈도우 창 생성
@@ -43,8 +50,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 		WS_OVERLAPPEDWINDOW,//윈도우 스타일
 		WINSTARTX,			//윈도우 화면의 x좌표
 		WINSTARTY,			//윈도우 화면의 y좌표
-		WINSIZEX,			//윈도우 화면의 가로크기
-		WINSIZEY,			//윈도우 화면의 세로크기
+		WINSIZEX + (FrameX<<1),			//윈도우 화면의 가로크기
+		WINSIZEY + (FrameY<<1) + CaptionY + 8,			//윈도우 화면의 세로크기
 		NULL,				//부모윈도우
 		(HMENU)NULL,		//메뉴핸들
 		hInstance,			//인스턴스 지정
@@ -72,7 +79,11 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	//전달해준다.
 
 	//GetMessage : 대기상태
-	//메시지 루프
+
+
+	//메시지 루프 /////////////////////////////////////////////////
+	
+	
 	//게임용 메세지 루프
 	
 	while(true)
@@ -93,6 +104,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	}
 
 
+	// 일반용 루프
 	/*while (GetMessage(&message, 0, 0, 0))
 	{
 		TranslateMessage(&message);

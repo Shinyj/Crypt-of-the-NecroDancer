@@ -1,5 +1,7 @@
 #pragma once
-#include "SingletonBase.h"
+
+class SingletonBase;
+
 // init 파일은
 // 3가지 section key value 를 넣을 수 있음
 //        [  ]   { }  ( ) 

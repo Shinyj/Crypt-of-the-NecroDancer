@@ -1,0 +1,328 @@
+﻿  stdafx.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\image\image.h(139): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\image\image.h(146): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.h(154): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  Zone1_1.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\zone1_1.cpp(153): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\zone1_1.cpp(158): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\zone1_1.cpp(167): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\zone1_1.cpp(172): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\zone1_1.cpp(282): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\zone1_1.cpp(283): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WinMain.cpp
+  WallBase.cpp
+  Util.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\util\util.cpp(18): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+  Timer.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\timer\timer.cpp(38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  TestScene.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\testscene.cpp(152): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\testscene.cpp(157): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\testscene.cpp(166): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\testscene.cpp(171): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\testscene.cpp(280): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\testscene.cpp(281): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TimeManager.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\timemanager.cpp(52): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\timemanager.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  Scene.cpp
+  SoundManager.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\soundmanager.cpp(365): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\soundmanager.cpp(366): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\soundmanager.cpp(370): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\soundmanager.cpp(375): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' 선언을 참조하십시오.
+  SceneManager.cpp
+  ProgressBar.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\progressbar\progressbar.cpp(20): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\progressbar\progressbar.cpp(21): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\progressbar\progressbar.cpp(23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\progressbar\progressbar.cpp(63): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  OWallZone2Stone.cpp
+  OWallZone2Dirt.cpp
+  OWallZone1Stone.cpp
+  OWallZone1Dirt.cpp
+  OWallGold.cpp
+  OWallEnd.cpp
+  OWallDoor.cpp
+  OWallBossWall.cpp
+  OPlayer1.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(57): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(214): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(233): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(234): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(238): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(274): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(293): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(331): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(347): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(379): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(393): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(425): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(471): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(528): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(624): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(1153): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(1166): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(1178): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(1204): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(1205): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(1213): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oplayer1.cpp(1215): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  OMonsterZombie.cpp
+  OMonsterSlimeGreen.cpp
+  OMonsterSlimeBlue.cpp
+  OMonsterSkeletonYellow.cpp
+  OMonsterSkeletonBlack.cpp
+  OMonsterSkeleton.cpp
+  OMonsterShopKeeper.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\omonstershopkeeper.cpp(346): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\omonstershopkeeper.cpp(360): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\omonstershopkeeper.cpp(376): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  OMonsterMinotaur2.cpp
+  OMonsterMinotaur.cpp
+  OMonsterMiniBossYellow.cpp
+  OMonsterMageYellow.cpp
+  OMonsterMageWhite.cpp
+  OMonsterMageBlack.cpp
+  OMonsterKingconga.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\omonsterkingconga.cpp(236): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\omonsterkingconga.cpp(236): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\omonsterkingconga.cpp(569): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\omonsterkingconga.cpp(583): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\omonsterkingconga.cpp(599): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  OMonsterDragonRed.cpp
+  OMonsterBatRed.cpp
+  OMonsterBatMiniBoss.cpp
+  OMonsterBatGreen.cpp
+  OMonsterBatBlack.cpp
+  OMonsterBat.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  OMonsterBanshee2.cpp
+  OMonsterBanshee.cpp
+  OItemWeaponSpear.cpp
+  OItemWeaponRapier.cpp
+  OItemWeaponLongSword.cpp
+  OItemWeaponGun.cpp
+  OItemWeaponFlail.cpp
+  OItemWeaponDagger.cpp
+  OItemWeaponBroad.cpp
+  OItemWeaponBow.cpp
+  OItemTorch3.cpp
+  OItemTorch2.cpp
+  OItemTorch1.cpp
+  OItemShovelTitanium.cpp
+  OItemShovelBasic.cpp
+  OItemPosionFood2.cpp
+  OItemGold.cpp
+  OItemArmorSpiked.cpp
+  OItemArmorLeader.cpp
+  OItemArmorGlass.cpp
+  코드를 생성하고 있습니다...
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\oitemshoveltitanium.cpp(85): warning C4715: 'OItemShovelTitanium::UseIt': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  OItemArmorGi.cpp
+  OFloorZone1.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\ofloorzone1.cpp(22): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  OFloorStairs.cpp
+  OFloorBoss.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\ofloorboss.cpp(22): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ObjPlayer.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\objplayer.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\objplayer.cpp(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+  MonsterBase.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\monsterbase.cpp(492): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\monsterbase.cpp(492): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\monsterbase.cpp(723): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\monsterbase.cpp(737): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\monsterbase.cpp(753): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  ObjectManager.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.h(154): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(349): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(359): warning C4244: '초기화 중': 'DWORD'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(497): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(498): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(520): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(524): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(445): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  PixelCollisionScene.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\pixel\pixelcollisionscene.cpp(26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\pixel\pixelcollisionscene.cpp(29): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\pixel\pixelcollisionscene.cpp(58): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\pixel\pixelcollisionscene.cpp(67): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\pixel\pixelcollisionscene.cpp(75): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\pixel\pixelcollisionscene.cpp(81): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\pixel\pixelcollisionscene.cpp(93): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Minimap.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\minimap\minimap.cpp(121): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\maingame\minimap\minimap.cpp(124): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LoadingScene.cpp
+  Loading.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(30): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(43): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(47): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(65): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(78): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(79): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(84): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(205): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(232): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(253): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\loading\loading.cpp(253): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  KeyManager.cpp
+  IsoMatrix.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\isomatrix\isomatrix.cpp(140): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\isomatrix\isomatrix.cpp(231): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\isomatrix\isomatrix.cpp(248): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\isomatrix\isomatrix.cpp(263): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\isomatrix\isomatrix.cpp(264): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Inidata.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\inidata.cpp(41): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\inidata.cpp(37): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\inidata.cpp(40): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(93): note: 'strcat' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\inidata.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\inidata.cpp(64): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(93): note: 'strcat' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\inidata.cpp(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\inidata.cpp(86): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(93): note: 'strcat' 선언을 참조하십시오.
+  ImageManager.cpp
+  Image.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\image\image.cpp(342): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\image\image.cpp(343): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameNode.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\gamenode.cpp(124): warning C4060: switch문에 'case' 또는 'default' 레이블이 없습니다.
+  MainGame.cpp
+  LobbyScene.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\lobbyscene.cpp(179): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\lobbyscene.cpp(184): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\lobbyscene.cpp(193): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\lobbyscene.cpp(198): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\lobbyscene.cpp(295): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\lobbyscene.cpp(296): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LevelEdit.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(161): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(217): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(236): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(240): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(470): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(478): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(490): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(501): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(512): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(528): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(549): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(575): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(582): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(591): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(627): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(639): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(650): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(661): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(682): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(697): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(704): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(713): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(749): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(765): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(781): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(797): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(812): warning C4101: 'hEditFIleToBEOpened' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(815): warning C4101: 'szFileName' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(818): warning C4101: 'str' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(872): warning C4129: 'S': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(872): warning C4129: 'D': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(872): warning C4129: 'V': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(872): warning C4129: 'P': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(872): warning C4129: 'A': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(872): warning C4129: 'm': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(856): warning C4101: 'hEditFIleToBEOpened' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(859): warning C4101: 'szFileName' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(863): warning C4101: 'str' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(934): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(950): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(966): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(982): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(1191): warning C4101: 'height' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(1191): warning C4101: 'width' :참조되지 않은 지역 변수입니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\leveledit.cpp(1190): warning C4101: 'rc' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\inidata.cpp(73): warning C4172: 지역 변수 또는 임시: data의 주소를 반환하고 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(692): warning C4715: 'ObjectManager::CreateWall': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(805): warning C4715: 'ObjectManager::CreateItem': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\manager\objectmanager.cpp(947): warning C4715: 'ObjectManager::CreateMonster': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  kingcongaIntro.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\kingcongaintro.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  ItemBase.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\itembase.cpp(115): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\itembase.cpp(116): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  IntroScene.cpp
+  GameObject.cpp
+  BossStatge.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\bossstatge.cpp(223): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\bossstatge.cpp(228): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\bossstatge.cpp(237): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\bossstatge.cpp(242): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\bossstatge.cpp(351): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\bossstatge.cpp(352): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AStar.cpp
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\astar\astar.cpp(458): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\astar\astar.cpp(471): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\shin\documents\visual studio 2015\projects\crypt_of_the_necrodance\astar\astar.cpp(486): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+  API_FrameWork2D.vcxproj -> C:\Users\shin\Documents\Visual Studio 2015\Projects\Crypt_of_the_NecroDance\Debug\API_FrameWork2D.exe
+  API_FrameWork2D.vcxproj -> C:\Users\shin\Documents\Visual Studio 2015\Projects\Crypt_of_the_NecroDance\Debug\API_FrameWork2D.pdb (Full PDB)

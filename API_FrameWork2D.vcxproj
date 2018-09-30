@@ -22,13 +22,13 @@
     <ProjectGuid>{B6A8BA43-C1B9-4244-AEC7-C8B288F94538}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>API_FrameWork2D</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -41,7 +41,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -87,10 +87,15 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <HeapReserveSize>
+      </HeapReserveSize>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -99,6 +104,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalUsingDirectories>.\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -141,56 +147,190 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="AStar\AStar.h" />
+    <ClInclude Include="BossStatge.h" />
     <ClInclude Include="CommonMacroFunction.h" />
-    <ClInclude Include="Enemy.h" />
-    <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="IntroScene.h" />
+    <ClInclude Include="ItemBase.h" />
+    <ClInclude Include="kingcongaIntro.h" />
+    <ClInclude Include="LevelEdit.h" />
+    <ClInclude Include="LobbyScene.h" />
+    <ClInclude Include="MainGame\COTND\MainGame.h" />
     <ClInclude Include="GameNode.h" />
-    <ClInclude Include="Image.h" />
-    <ClInclude Include="ImageManager.h" />
+    <ClInclude Include="Image\Image.h" />
+    <ClInclude Include="Manager\ImageManager.h" />
     <ClInclude Include="Inidata.h" />
-    <ClInclude Include="KeyManager.h" />
-    <ClInclude Include="MainGame.h" />
-    <ClInclude Include="Minion.h" />
-    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="IsoMatrix\IsoMatrix.h" />
+    <ClInclude Include="Manager\KeyManager.h" />
+    <ClInclude Include="Loading\Loading.h" />
+    <ClInclude Include="MainGame\LodingScene\LoadingScene.h" />
+    <ClInclude Include="MainGame\Minimap\Minimap.h" />
+    <ClInclude Include="MainGame\Pixel\PixelCollisionScene.h" />
+    <ClInclude Include="Manager\ObjectManager.h" />
+    <ClInclude Include="MonsterBase.h" />
+    <ClInclude Include="ObjPlayer.h" />
+    <ClInclude Include="OFloorBoss.h" />
+    <ClInclude Include="OFloorStairs.h" />
+    <ClInclude Include="OFloorZone1.h" />
+    <ClInclude Include="OItemArmorGi.h" />
+    <ClInclude Include="OItemArmorGlass.h" />
+    <ClInclude Include="OItemArmorLeader.h" />
+    <ClInclude Include="OItemArmorSpiked.h" />
+    <ClInclude Include="OItemGold.h" />
+    <ClInclude Include="OItemPosionFood2.h" />
+    <ClInclude Include="OItemShovelBasic.h" />
+    <ClInclude Include="OItemShovelTitanium.h" />
+    <ClInclude Include="OItemTorch1.h" />
+    <ClInclude Include="OItemTorch2.h" />
+    <ClInclude Include="OItemTorch3.h" />
+    <ClInclude Include="OItemWeaponBow.h" />
+    <ClInclude Include="OItemWeaponBroad.h" />
+    <ClInclude Include="OItemWeaponDagger.h" />
+    <ClInclude Include="OItemWeaponFlail.h" />
+    <ClInclude Include="OItemWeaponGun.h" />
+    <ClInclude Include="OItemWeaponLongSword.h" />
+    <ClInclude Include="OItemWeaponRapier.h" />
+    <ClInclude Include="OItemWeaponSpear.h" />
+    <ClInclude Include="OMonsterBanshee.h" />
+    <ClInclude Include="OMonsterBanshee2.h" />
+    <ClInclude Include="OMonsterBat.h" />
+    <ClInclude Include="OMonsterBatBlack.h" />
+    <ClInclude Include="OMonsterBatGreen.h" />
+    <ClInclude Include="OMonsterBatMiniBoss.h" />
+    <ClInclude Include="OMonsterBatRed.h" />
+    <ClInclude Include="OMonsterDragonRed.h" />
+    <ClInclude Include="OMonsterKingconga.h" />
+    <ClInclude Include="OMonsterMageBlack.h" />
+    <ClInclude Include="OMonsterMageWhite.h" />
+    <ClInclude Include="OMonsterMageYellow.h" />
+    <ClInclude Include="OMonsterMiniBossYellow.h" />
+    <ClInclude Include="OMonsterMinotaur.h" />
+    <ClInclude Include="OMonsterMinotaur2.h" />
+    <ClInclude Include="OMonsterShopKeeper.h" />
+    <ClInclude Include="OMonsterSkeleton.h" />
+    <ClInclude Include="OMonsterSkeletonBlack.h" />
+    <ClInclude Include="OMonsterSkeletonYellow.h" />
+    <ClInclude Include="OMonsterSlimeBlue.h" />
+    <ClInclude Include="OMonsterSlimeGreen.h" />
+    <ClInclude Include="OMonsterZombie.h" />
+    <ClInclude Include="OPlayer1.h" />
+    <ClInclude Include="OWallBossWall.h" />
+    <ClInclude Include="OWallDoor.h" />
+    <ClInclude Include="OWallEnd.h" />
+    <ClInclude Include="OWallGold.h" />
+    <ClInclude Include="OWallZone1Dirt.h" />
+    <ClInclude Include="OWallZone1Stone.h" />
+    <ClInclude Include="OWallZone2Dirt.h" />
+    <ClInclude Include="OWallZone2Stone.h" />
+    <ClInclude Include="ProgressBar\ProgressBar.h" />
     <ClInclude Include="RandomFunction.h" />
-    <ClInclude Include="Rocket.h" />
-    <ClInclude Include="SceneManager.h" />
-    <ClInclude Include="SingletonBase.h" />
+    <ClInclude Include="Manager\SceneManager.h" />
+    <ClInclude Include="Manager\SingletonBase.h" />
+    <ClInclude Include="Manager\SoundManager.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="TestScene_01.h" />
-    <ClInclude Include="TestScene_02.h" />
-    <ClInclude Include="TimeManager.h" />
-    <ClInclude Include="Timer.h" />
-    <ClInclude Include="Util.h" />
+    <ClInclude Include="Manager\TimeManager.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="Timer\Timer.h" />
+    <ClInclude Include="Util\Util.h" />
+    <ClInclude Include="WallBase.h" />
+    <ClInclude Include="Zone1_1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="EnemyManager.cpp" />
+    <ClCompile Include="AStar\AStar.cpp" />
+    <ClCompile Include="BossStatge.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
+    <ClCompile Include="ItemBase.cpp" />
+    <ClCompile Include="kingcongaIntro.cpp" />
+    <ClCompile Include="LevelEdit.cpp" />
+    <ClCompile Include="LobbyScene.cpp" />
+    <ClCompile Include="MainGame\COTND\MainGame.cpp" />
     <ClCompile Include="GameNode.cpp" />
-    <ClCompile Include="Image.cpp" />
-    <ClCompile Include="ImageManager.cpp" />
+    <ClCompile Include="Image\Image.cpp" />
+    <ClCompile Include="Manager\ImageManager.cpp" />
     <ClCompile Include="Inidata.cpp" />
-    <ClCompile Include="KeyManager.cpp" />
-    <ClCompile Include="MainGame.cpp" />
-    <ClCompile Include="Minion.cpp" />
-    <ClCompile Include="ProgressBar.cpp" />
-    <ClCompile Include="Rocket.cpp" />
-    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="IsoMatrix\IsoMatrix.cpp" />
+    <ClCompile Include="Manager\KeyManager.cpp" />
+    <ClCompile Include="Loading\Loading.cpp" />
+    <ClCompile Include="MainGame\LodingScene\LoadingScene.cpp" />
+    <ClCompile Include="MainGame\Minimap\Minimap.cpp" />
+    <ClCompile Include="MainGame\Pixel\PixelCollisionScene.cpp" />
+    <ClCompile Include="Manager\ObjectManager.cpp" />
+    <ClCompile Include="MonsterBase.cpp" />
+    <ClCompile Include="ObjPlayer.cpp" />
+    <ClCompile Include="OFloorBoss.cpp" />
+    <ClCompile Include="OFloorStairs.cpp" />
+    <ClCompile Include="OFloorZone1.cpp" />
+    <ClCompile Include="OItemArmorGi.cpp" />
+    <ClCompile Include="OItemArmorGlass.cpp" />
+    <ClCompile Include="OItemArmorLeader.cpp" />
+    <ClCompile Include="OItemArmorSpiked.cpp" />
+    <ClCompile Include="OItemGold.cpp" />
+    <ClCompile Include="OItemPosionFood2.cpp" />
+    <ClCompile Include="OItemShovelBasic.cpp" />
+    <ClCompile Include="OItemShovelTitanium.cpp" />
+    <ClCompile Include="OItemTorch1.cpp" />
+    <ClCompile Include="OItemTorch2.cpp" />
+    <ClCompile Include="OItemTorch3.cpp" />
+    <ClCompile Include="OItemWeaponBow.cpp" />
+    <ClCompile Include="OItemWeaponBroad.cpp" />
+    <ClCompile Include="OItemWeaponDagger.cpp" />
+    <ClCompile Include="OItemWeaponFlail.cpp" />
+    <ClCompile Include="OItemWeaponGun.cpp" />
+    <ClCompile Include="OItemWeaponLongSword.cpp" />
+    <ClCompile Include="OItemWeaponRapier.cpp" />
+    <ClCompile Include="OItemWeaponSpear.cpp" />
+    <ClCompile Include="OMonsterBanshee.cpp" />
+    <ClCompile Include="OMonsterBanshee2.cpp" />
+    <ClCompile Include="OMonsterBat.cpp" />
+    <ClCompile Include="OMonsterBatBlack.cpp" />
+    <ClCompile Include="OMonsterBatGreen.cpp" />
+    <ClCompile Include="OMonsterBatMiniBoss.cpp" />
+    <ClCompile Include="OMonsterBatRed.cpp" />
+    <ClCompile Include="OMonsterDragonRed.cpp" />
+    <ClCompile Include="OMonsterKingconga.cpp" />
+    <ClCompile Include="OMonsterMageBlack.cpp" />
+    <ClCompile Include="OMonsterMageWhite.cpp" />
+    <ClCompile Include="OMonsterMageYellow.cpp" />
+    <ClCompile Include="OMonsterMiniBossYellow.cpp" />
+    <ClCompile Include="OMonsterMinotaur.cpp" />
+    <ClCompile Include="OMonsterMinotaur2.cpp" />
+    <ClCompile Include="OMonsterShopKeeper.cpp" />
+    <ClCompile Include="OMonsterSkeleton.cpp" />
+    <ClCompile Include="OMonsterSkeletonBlack.cpp" />
+    <ClCompile Include="OMonsterSkeletonYellow.cpp" />
+    <ClCompile Include="OMonsterSlimeBlue.cpp" />
+    <ClCompile Include="OMonsterSlimeGreen.cpp" />
+    <ClCompile Include="OMonsterZombie.cpp" />
+    <ClCompile Include="OPlayer1.cpp" />
+    <ClCompile Include="OWallBossWall.cpp" />
+    <ClCompile Include="OWallDoor.cpp" />
+    <ClCompile Include="OWallEnd.cpp" />
+    <ClCompile Include="OWallGold.cpp" />
+    <ClCompile Include="OWallZone1Dirt.cpp" />
+    <ClCompile Include="OWallZone1Stone.cpp" />
+    <ClCompile Include="OWallZone2Dirt.cpp" />
+    <ClCompile Include="OWallZone2Stone.cpp" />
+    <ClCompile Include="ProgressBar\ProgressBar.cpp" />
+    <ClCompile Include="Manager\SceneManager.cpp" />
+    <ClCompile Include="Manager\SoundManager.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="TestScene_01.cpp" />
-    <ClCompile Include="TestScene_02.cpp" />
-    <ClCompile Include="TimeManager.cpp" />
-    <ClCompile Include="Timer.cpp" />
-    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="Manager\TimeManager.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="Timer\Timer.cpp" />
+    <ClCompile Include="Util\Util.cpp" />
+    <ClCompile Include="WallBase.cpp" />
     <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Zone1_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

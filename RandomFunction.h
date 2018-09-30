@@ -2,8 +2,10 @@
 
 //RandomFunction.h
 
-#include "SingletonBase.h"
+#include "./Manager//SingletonBase.h"
 #include <time.h>
+
+class SingletonBase;
 
 class RandomFunction : public singletonBase<RandomFunction>
 {

@@ -4,7 +4,6 @@ GameNode::GameNode()
 {
 }
 
-
 GameNode::~GameNode()
 {
 }
@@ -19,6 +18,7 @@ HRESULT GameNode::Init()
 	SetTimer(hWnd, 1, 10, NULL);
 	KEYMANAGER->Init();
 	TIMER->Init();
+	SOUNDMANAGER->Init();
 
 	SetBackBuffer(); // 백버퍼 초기화(나중에 지울것)
 	return S_OK;
@@ -35,7 +35,8 @@ void GameNode::Release()
 	SCENEMANAGER->ReleaseSingleton();
 	TIMER->Release();
 	TIMER->ReleaseSingleton();
-
+	SOUNDMANAGER->Release();
+	SOUNDMANAGER->ReleaseSingleton();
 
 	SAFE_DELETE(m_backBuffer);
 
@@ -44,7 +45,7 @@ void GameNode::Update()
 {
 	//매초 마다 실행시켜 줄 녀석
 	
-
+	SOUNDMANAGER->Update();
 	//나중에 고성능 타이머를 만든후엔느 사용하지 않음
 	//더블버퍼링 이후 사용하지 않는다 (true->false);
 	InvalidateRect(hWnd, NULL, false);
@@ -52,6 +53,21 @@ void GameNode::Update()
 void GameNode::Render() 
 {
 
+
+}
+
+void GameNode::SetMap()
+{
+
+}
+
+void GameNode::Save()
+{
+
+}
+
+void GameNode::Load()
+{
 
 }
 
@@ -79,13 +95,32 @@ LRESULT GameNode::MainProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lPara
 		//마우스 좌표
 		ptMouse.x = LOWORD(lParam);
 		ptMouse.y = HIWORD(lParam);
+		
+		if (KEYMANAGER->IsStayKeyDown(VK_LBUTTON)) this->SetMap();
+		break;
+	case WM_COMMAND :
+		// 프로그램 실행 중 사용하가 메류 항목을 선택하면 발생
+		switch (LOWORD(wParam))
+		{
+		case CTRL_SAVE :
+			this->Save();
+			break;
+		case CTRL_LOAD :
+			this->Load();
+			InvalidateRect(hWnd, NULL, FALSE);
+			break;
+		default :
+			this->SetCtrlSelect(LOWORD(wParam));
+			break;
+		}
+		
 		break;
 	case WM_KEYDOWN:
 		switch (wParam)
 		{
-		case VK_ESCAPE:
-			PostQuitMessage(0);
-			break;
+		//case VK_ESCAPE:
+		//	PostQuitMessage(0);
+		//	break;
 		}
 		break;
 	case WM_DESTROY:
